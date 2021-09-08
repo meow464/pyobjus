@@ -162,6 +162,7 @@ frameworks = dict(
     Tcl = '/System/Library/Frameworks/Tcl.framework',
     Tk = '/System/Library/Frameworks/Tk.framework',
     TWAIN = '/System/Library/Frameworks/TWAIN.framework',
+    UIKit = '/System/Library/Frameworks/UIKit.framework',
     vecLib = '/System/Library/Frameworks/vecLib.framework',
     VideoDecodeAcceleration = '/System/Library/Frameworks/VideoDecodeAcceleration.framework',
     VideoToolbox = '/System/Library/Frameworks/VideoToolbox.framework',
