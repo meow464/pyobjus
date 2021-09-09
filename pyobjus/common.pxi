@@ -21,6 +21,8 @@ cdef extern from "CoreGraphics/CoreGraphics.h":
     ctypedef struct CGRect:
         CGPoint origin
         CGSize size
+    ctypedef struct CGColorRef
+        pass
 
 
 cdef extern from "stdarg.h":

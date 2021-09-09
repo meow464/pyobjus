@@ -21,6 +21,9 @@ class NSSize(ctypes.Structure):
 class NSRect(ctypes.Structure):
     _fields_ = [('origin', NSPoint), ('size', NSSize)]
 
+class CGColorRef(ctypes.Structure):
+    _fields_ = []
+
 
 cdef class CArrayCount:
     cdef public unsigned int value
