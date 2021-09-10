@@ -23,7 +23,7 @@ class NSRect(ctypes.Structure):
 
 
 class CGColorRef(ctypes.Structure):
-    _fields_ = []
+      pass
 
 
 cdef class CArrayCount:
