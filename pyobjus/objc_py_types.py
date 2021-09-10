@@ -184,6 +184,11 @@ class Factory(object):
 def enum(enum_type, **enums):
     return type(enum_type, (), enums)
 
+UIUserInterfaceStyle = enum(
+    UIUserInterfaceStyleUnspecified=0,
+    UIUserInterfaceStyleLight=1,
+    UIUserInterfaceStyleDark=2)
+
 NSComparisonResult = enum(
     "NSComparisonResult",
     NSOrderedAscending=-1,
